@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
   "name": "Grafanaaccessibilitycolorblind",
-  "id": "sogeking-grafanaaccessibilitycolorblind-panel",
+  "id": "sogekng-grafanaaccessibilitycolorblind-panel",
   "info": {
     "keywords": ["panel"],
     "description": "",
