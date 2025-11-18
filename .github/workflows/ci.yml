@@ -208,7 +208,7 @@ jobs:
       - name: Docker logs
         if: ${{ always() && steps.run-tests.outcome == 'failure' }}
         run: |
-          docker logs sogeking-grafanaaccessibilitycolorblind-panel >& grafana-server.log
+          docker logs sogekng-grafanaaccessibilitycolorblind-panel >& grafana-server.log
 
       - name: Stop grafana docker
         run: docker compose down

@@ -4,5 +4,5 @@ services:
       file: .config/docker-compose-base.yaml
       service: grafana
     environment:
-      - GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=grafanaaccessibilitycolorblind-panel
+      - GF_PLUGINS_ALLOW_LOADING_UNSIGNED_PLUGINS=-sogekng-grafanaaccessibilitycolorblind-panel
       - GF_DEFAULT_APP_MODE=development

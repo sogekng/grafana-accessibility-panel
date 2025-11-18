@@ -1,25 +1,30 @@
 {
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
-  "name": "Grafanaaccessibilitycolorblind",
+  "name": "Accessibility Color Filters",
   "id": "sogekng-grafanaaccessibilitycolorblind-panel",
   "info": {
     "keywords": ["panel"],
-    "description": "",
+    "description": "Panel correct color blindness (daltonism) across Grafana dashboards.",
     "author": {
-      "name": "Sogeking"
+      "name": "sogekng"
     },
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
     },
     "links": [],
-    "screenshots": [],
+    "screenshots": [
+      {
+        "name": "Panel in action",
+        "path": "img/screenshot.jpeg"
+      }
+    ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
   "dependencies": {
-    "grafanaDependency": ">=10.4.0",
+    "grafanaDependency": ">=10.0.0",
     "plugins": []
   }
 }
